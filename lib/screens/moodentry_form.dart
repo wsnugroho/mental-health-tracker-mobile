@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_tracker/widgets/left_drawer.dart';
 
 class MoodEntryFormPage extends StatefulWidget {
   const MoodEntryFormPage({super.key});
@@ -26,7 +25,6 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
         backgroundColor: Theme.of(context).colorScheme.primary,
         foregroundColor: Colors.white,
       ),
-      drawer: const LeftDrawer(),
       body: Form(
         key: _formKey,
         child: SingleChildScrollView(
